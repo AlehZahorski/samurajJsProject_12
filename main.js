@@ -32,8 +32,9 @@ document.querySelectorAll('button').forEach((item) => {
 })
 
 
-//search
 
+
+//search
 const searchTask = (e) => {
     const searchText = e.target.value.toLowerCase();
     let tasks = [...li];
@@ -44,3 +45,4 @@ const searchTask = (e) => {
 }
 
 input.addEventListener('input', searchTask)
+//search
